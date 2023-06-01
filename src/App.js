@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import qrImg from "./assest/image-qr-code.png"
-import { HiOutlineSun } from 'react-icons/hi'
-import { IoMdMoon } from "react-icons/io"
+
 
 function App() {
   const [theme, setTheme] = useState("light")
